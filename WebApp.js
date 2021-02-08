@@ -10,7 +10,7 @@ var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
 
-function clockstart (){
+function full_search_start (){
 	startTime = performance.now();
 
 	for(var cnt = 0; cnt < Math.pow(2, itemprice.length) ;cnt++){
