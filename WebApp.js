@@ -10,6 +10,8 @@ var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
 
+alert("1");
+
 
 
 
@@ -17,6 +19,7 @@ var maxvalue = 0;
 
 function calculation_start(){
 	
+	alert("2");
 	var snacklist = document.getElementsByName("snack");
 	var psum = 0;
 	var vsum = 0;
@@ -27,7 +30,7 @@ function calculation_start(){
 	        vsum = vsum+itemvalue[i];
 	}
 }
-	
+	alert("3");
 	var element = document.createElement("p");
         var text = document.createTextNode("合計金額:" + psum + ",合計人気度:"　+　vsum);
 	document.body.appendChild(element).appendChild(text);
