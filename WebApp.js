@@ -10,7 +10,6 @@ var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
 
-
 function full_search2_start() {
 	 const startTime = performance.now();
 
