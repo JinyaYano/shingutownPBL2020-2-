@@ -1,4 +1,3 @@
-alert("1");
 let btnstart4 = document.getElementById("mybtn4");
 let btnstart3 = document.getElementById("mybtn3");
 
