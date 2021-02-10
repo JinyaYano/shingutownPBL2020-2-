@@ -143,423 +143,421 @@ function full_search2_start() {
 											if(sumprice[9]>300) break;
 
 
-for (buy[10] = 0; buy[10] < 2; buy[10]++) {
-	if (buy[10] == 1) {
-		sumprice[10] = sumprice[9] + itemprice[10];
-		sumvalue[10] = sumvalue[9] + itemvalue[10];
-		}
-	else {
-		sumprice[10] = sumprice[9];
-		sumvalue[10] = sumvalue[9];
-		}
-
-	if(sumprice[10]>300) break;
-
-	for (buy[11] = 0; buy[11] < 2; buy[11]++) {
-		if (buy[11] == 1) {
-			sumprice[11] = sumprice[10] + itemprice[11];
-			sumvalue[11] = sumvalue[10] + itemvalue[11];
-			}
-		else {
-			sumprice[11] = sumprice[10];
-			sumvalue[11] = sumvalue[10];
-			}
-
-		if(sumprice[11]>300) break;
-
-		for (buy[12] = 0; buy[12] < 2; buy[12]++) {
-			if (buy[12] == 1) {
-				sumprice[12] = sumprice[11] + itemprice[12];
-				sumvalue[12] = sumvalue[11] + itemvalue[12];
+		for (buy[10] = 0; buy[10] < 2; buy[10]++) {
+			if (buy[10] == 1) {
+				sumprice[10] = sumprice[9] + itemprice[10];
+				sumvalue[10] = sumvalue[9] + itemvalue[10];
 				}
 			else {
-				sumprice[12] = sumprice[11];
-				sumvalue[12] = sumvalue[11];
+				sumprice[10] = sumprice[9];
+				sumvalue[10] = sumvalue[9];
 				}
 
-			if(sumprice[12]>300) break;
+			if(sumprice[10]>300) break;
 
-				for (buy[13] = 0; buy[13] < 2; buy[13]++) {
-					if (buy[13] == 1) {
-						sumprice[13] = sumprice[12] + itemprice[13];
-						sumvalue[13] = sumvalue[12] + itemvalue[13];
+			for (buy[11] = 0; buy[11] < 2; buy[11]++) {
+				if (buy[11] == 1) {
+					sumprice[11] = sumprice[10] + itemprice[11];
+					sumvalue[11] = sumvalue[10] + itemvalue[11];
+					}
+				else {
+					sumprice[11] = sumprice[10];
+					sumvalue[11] = sumvalue[10];
+					}
+
+				if(sumprice[11]>300) break;
+
+				for (buy[12] = 0; buy[12] < 2; buy[12]++) {
+					if (buy[12] == 1) {
+						sumprice[12] = sumprice[11] + itemprice[12];
+						sumvalue[12] = sumvalue[11] + itemvalue[12];
 						}
 					else {
-						sumprice[13] = sumprice[12];
-						sumvalue[13] = sumvalue[12];
+						sumprice[12] = sumprice[11];
+						sumvalue[12] = sumvalue[11];
 						}
 
-					if(sumprice[13]>300) break;
+					if(sumprice[12]>300) break;
 
-					for (buy[14] = 0; buy[14] < 2; buy[14]++) {
-						if (buy[14] == 1) {
-							sumprice[14] = sumprice[13] + itemprice[14];
-							sumvalue[14] = sumvalue[13] + itemvalue[14];
-							}
-						else {
-							sumprice[14] = sumprice[13];
-							sumvalue[14] = sumvalue[13];
-							}
-
-						if(sumprice[14]>300) break;
-
-						for (buy[15] = 0; buy[15] < 2; buy[15]++) {
-							if (buy[15] == 1) {
-								sumprice[15] = sumprice[14] + itemprice[15];
-								sumvalue[15] = sumvalue[14] + itemvalue[15];
+						for (buy[13] = 0; buy[13] < 2; buy[13]++) {
+							if (buy[13] == 1) {
+								sumprice[13] = sumprice[12] + itemprice[13];
+								sumvalue[13] = sumvalue[12] + itemvalue[13];
 								}
 							else {
-								sumprice[15] = sumprice[14];
-								sumvalue[15] = sumvalue[14];
+								sumprice[13] = sumprice[12];
+								sumvalue[13] = sumvalue[12];
 								}
 
-							if(sumprice[15]>300) break;
+							if(sumprice[13]>300) break;
 
-							for (buy[16] = 0; buy[16] < 2; buy[16]++) {
-								if (buy[16] == 1) {
-									sumprice[16] = sumprice[15] + itemprice[16];
-									sumvalue[16] = sumvalue[15] + itemvalue[16];
+							for (buy[14] = 0; buy[14] < 2; buy[14]++) {
+								if (buy[14] == 1) {
+									sumprice[14] = sumprice[13] + itemprice[14];
+									sumvalue[14] = sumvalue[13] + itemvalue[14];
 									}
 								else {
-									sumprice[16] = sumprice[15];
-									sumvalue[16] = sumvalue[15];
+									sumprice[14] = sumprice[13];
+									sumvalue[14] = sumvalue[13];
 									}
 
-								if(sumprice[16]>300) break;
+								if(sumprice[14]>300) break;
 
-								for (buy[17] = 0; buy[17] < 2; buy[17]++) {
-									if (buy[17] == 1) {
-										sumprice[17] = sumprice[16] + itemprice[17];
-										sumvalue[17] = sumvalue[16] + itemvalue[17];
+								for (buy[15] = 0; buy[15] < 2; buy[15]++) {
+									if (buy[15] == 1) {
+										sumprice[15] = sumprice[14] + itemprice[15];
+										sumvalue[15] = sumvalue[14] + itemvalue[15];
 										}
 									else {
-										sumprice[17] = sumprice[16];
-										sumvalue[17] = sumvalue[16];
+										sumprice[15] = sumprice[14];
+										sumvalue[15] = sumvalue[14];
 										}
 
-									if(sumprice[17]>300) break;
+									if(sumprice[15]>300) break;
 
-									for (buy[18] = 0; buy[18] < 2; buy[18]++) {
-										if (buy[18] == 1) {
-											sumprice[18] = sumprice[17] + itemprice[18];
-											sumvalue[18] = sumvalue[17] + itemvalue[18];
+									for (buy[16] = 0; buy[16] < 2; buy[16]++) {
+										if (buy[16] == 1) {
+											sumprice[16] = sumprice[15] + itemprice[16];
+											sumvalue[16] = sumvalue[15] + itemvalue[16];
 											}
 										else {
-											sumprice[18] = sumprice[17];
-											sumvalue[18] = sumvalue[17];
+											sumprice[16] = sumprice[15];
+											sumvalue[16] = sumvalue[15];
 											}
 
-										if(sumprice[18]>300) break;
+										if(sumprice[16]>300) break;
 
-										for (buy[19] = 0; buy[19] < 2; buy[19]++) {
-											if (buy[19] == 1) {
-												sumprice[19] = sumprice[18] + itemprice[19];
-												sumvalue[19] = sumvalue[18] + itemvalue[19];
+										for (buy[17] = 0; buy[17] < 2; buy[17]++) {
+											if (buy[17] == 1) {
+												sumprice[17] = sumprice[16] + itemprice[17];
+												sumvalue[17] = sumvalue[16] + itemvalue[17];
 												}
 											else {
-												sumprice[19] = sumprice[18];
-												sumvalue[19] = sumvalue[18];
+												sumprice[17] = sumprice[16];
+												sumvalue[17] = sumvalue[16];
 												}
 
-											if(sumprice[19]>300) break;
+											if(sumprice[17]>300) break;
 
-for (buy[20] = 0; buy[20] < 2; buy[20]++) {
-	if (buy[20] == 1) {
-		sumprice[20] = sumprice[19] + itemprice[20];
-		sumvalue[20] = sumvalue[19] + itemvalue[20];
-		}
-	else {
-		sumprice[20] = sumprice[19];
-		sumvalue[20] = sumvalue[19];
-		}
+											for (buy[18] = 0; buy[18] < 2; buy[18]++) {
+												if (buy[18] == 1) {
+													sumprice[18] = sumprice[17] + itemprice[18];
+													sumvalue[18] = sumvalue[17] + itemvalue[18];
+													}
+												else {
+													sumprice[18] = sumprice[17];
+													sumvalue[18] = sumvalue[17];
+													}
 
-	if(sumprice[20]>300) break;
+												if(sumprice[18]>300) break;
 
-	for (buy[21] = 0; buy[21] < 2; buy[21]++) {
-		if (buy[21] == 1) {
-			sumprice[21] = sumprice[20] + itemprice[21];
-			sumvalue[21] = sumvalue[20] + itemvalue[21];
-			}
-		else {
-			sumprice[21] = sumprice[20];
-			sumvalue[21] = sumvalue[20];
-			}
+												for (buy[19] = 0; buy[19] < 2; buy[19]++) {
+													if (buy[19] == 1) {
+														sumprice[19] = sumprice[18] + itemprice[19];
+														sumvalue[19] = sumvalue[18] + itemvalue[19];
+														}
+													else {
+														sumprice[19] = sumprice[18];
+														sumvalue[19] = sumvalue[18];
+														}
 
-		if(sumprice[21]>300) break;
+													if(sumprice[19]>300) break;
 
-		for (buy[22] = 0; buy[22] < 2; buy[22]++) {
-			if (buy[22] == 1) {
-				sumprice[22] = sumprice[21] + itemprice[22];
-				sumvalue[22] = sumvalue[21] + itemvalue[22];
+		for (buy[20] = 0; buy[20] < 2; buy[20]++) {
+			if (buy[20] == 1) {
+				sumprice[20] = sumprice[19] + itemprice[20];
+				sumvalue[20] = sumvalue[19] + itemvalue[20];
 				}
 			else {
-				sumprice[22] = sumprice[21];
-				sumvalue[22] = sumvalue[21];
+				sumprice[20] = sumprice[19];
+				sumvalue[20] = sumvalue[19];
 				}
 
-			if(sumprice[22]>300) break;
+			if(sumprice[20]>300) break;
 
-				for (buy[23] = 0; buy[23] < 2; buy[23]++) {
-					if (buy[23] == 1) {
-						sumprice[23] = sumprice[22] + itemprice[23];
-						sumvalue[23] = sumvalue[22] + itemvalue[23];
+			for (buy[21] = 0; buy[21] < 2; buy[21]++) {
+				if (buy[21] == 1) {
+					sumprice[21] = sumprice[20] + itemprice[21];
+					sumvalue[21] = sumvalue[20] + itemvalue[21];
+					}
+				else {
+					sumprice[21] = sumprice[20];
+					sumvalue[21] = sumvalue[20];
+					}
+
+				if(sumprice[21]>300) break;
+
+				for (buy[22] = 0; buy[22] < 2; buy[22]++) {
+					if (buy[22] == 1) {
+						sumprice[22] = sumprice[21] + itemprice[22];
+						sumvalue[22] = sumvalue[21] + itemvalue[22];
 						}
 					else {
-						sumprice[23] = sumprice[22];
-						sumvalue[23] = sumvalue[22];
+						sumprice[22] = sumprice[21];
+						sumvalue[22] = sumvalue[21];
 						}
 
-					if(sumprice[23]>300) break;
+					if(sumprice[22]>300) break;
 
-					for (buy[24] = 0; buy[24] < 2; buy[24]++) {
-						if (buy[24] == 1) {
-							sumprice[24] = sumprice[23] + itemprice[24];
-							sumvalue[24] = sumvalue[23] + itemvalue[24];
-							}
-						else {
-							sumprice[24] = sumprice[23];
-							sumvalue[24] = sumvalue[23];
-							}
-
-						if(sumprice[24]>300) break;
-
-						for (buy[25] = 0; buy[25] < 2; buy[25]++) {
-							if (buy[25] == 1) {
-								sumprice[25] = sumprice[24] + itemprice[25];
-								sumvalue[25] = sumvalue[24] + itemvalue[25];
+						for (buy[23] = 0; buy[23] < 2; buy[23]++) {
+							if (buy[23] == 1) {
+								sumprice[23] = sumprice[22] + itemprice[23];
+								sumvalue[23] = sumvalue[22] + itemvalue[23];
 								}
 							else {
-								sumprice[25] = sumprice[24];
-								sumvalue[25] = sumvalue[24];
+								sumprice[23] = sumprice[22];
+								sumvalue[23] = sumvalue[22];
 								}
 
-							if(sumprice[25]>300) break;
+							if(sumprice[23]>300) break;
 
-							for (buy[26] = 0; buy[26] < 2; buy[26]++) {
-								if (buy[26] == 1) {
-									sumprice[26] = sumprice[25] + itemprice[26];
-									sumvalue[26] = sumvalue[25] + itemvalue[26];
+							for (buy[24] = 0; buy[24] < 2; buy[24]++) {
+								if (buy[24] == 1) {
+									sumprice[24] = sumprice[23] + itemprice[24];
+									sumvalue[24] = sumvalue[23] + itemvalue[24];
 									}
 								else {
-									sumprice[26] = sumprice[25];
-									sumvalue[26] = sumvalue[25];
+									sumprice[24] = sumprice[23];
+									sumvalue[24] = sumvalue[23];
 									}
 
-								if(sumprice[26]>300) break;
+								if(sumprice[24]>300) break;
 
-								for (buy[27] = 0; buy[27] < 2; buy[27]++) {
-									if (buy[27] == 1) {
-										sumprice[27] = sumprice[26] + itemprice[27];
-										sumvalue[27] = sumvalue[26] + itemvalue[27];
+								for (buy[25] = 0; buy[25] < 2; buy[25]++) {
+									if (buy[25] == 1) {
+										sumprice[25] = sumprice[24] + itemprice[25];
+										sumvalue[25] = sumvalue[24] + itemvalue[25];
 										}
 									else {
-										sumprice[27] = sumprice[26];
-										sumvalue[27] = sumvalue[26];
+										sumprice[25] = sumprice[24];
+										sumvalue[25] = sumvalue[24];
 										}
 
-									if(sumprice[27]>300) break;
+									if(sumprice[25]>300) break;
 
-									for (buy[28] = 0; buy[28] < 2; buy[28]++) {
-										if (buy[28] == 1) {
-											sumprice[28] = sumprice[27] + itemprice[28];
-											sumvalue[28] = sumvalue[27] + itemvalue[28];
+									for (buy[26] = 0; buy[26] < 2; buy[26]++) {
+										if (buy[26] == 1) {
+											sumprice[26] = sumprice[25] + itemprice[26];
+											sumvalue[26] = sumvalue[25] + itemvalue[26];
 											}
 										else {
-											sumprice[28] = sumprice[27];
-											sumvalue[28] = sumvalue[27];
+											sumprice[26] = sumprice[25];
+											sumvalue[26] = sumvalue[25];
 											}
 
-										if(sumprice[28]>300) break;
+										if(sumprice[26]>300) break;
 
-										for (buy[29] = 0; buy[29] < 2; buy[29]++) {
-											if (buy[29] == 1) {
-												sumprice[29] = sumprice[28] + itemprice[29];
-												sumvalue[29] = sumvalue[28] + itemvalue[29];
+										for (buy[27] = 0; buy[27] < 2; buy[27]++) {
+											if (buy[27] == 1) {
+												sumprice[27] = sumprice[26] + itemprice[27];
+												sumvalue[27] = sumvalue[26] + itemvalue[27];
 												}
 											else {
-												sumprice[29] = sumprice[28];
-												sumvalue[29] = sumvalue[28];
+												sumprice[27] = sumprice[26];
+												sumvalue[27] = sumvalue[26];
 												}
 
-											if(sumprice[29]>300) break;
+											if(sumprice[27]>300) break;
 
-for (buy[30] = 0; buy[30] < 2; buy[30]++) {
-	if (buy[30] == 1) {
-		sumprice[30] = sumprice[29] + itemprice[30];
-		sumvalue[30] = sumvalue[29] + itemvalue[30];
-		}
-	else {
-		sumprice[30] = sumprice[29];
-		sumvalue[30] = sumvalue[29];
-		}
+											for (buy[28] = 0; buy[28] < 2; buy[28]++) {
+												if (buy[28] == 1) {
+													sumprice[28] = sumprice[27] + itemprice[28];
+													sumvalue[28] = sumvalue[27] + itemvalue[28];
+													}
+												else {
+													sumprice[28] = sumprice[27];
+													sumvalue[28] = sumvalue[27];
+													}
 
-	if(sumprice[30]>300) break;
+												if(sumprice[28]>300) break;
 
-	for (buy[31] = 0; buy[31] < 2; buy[31]++) {
-		if (buy[31] == 1) {
-			sumprice[31] = sumprice[30] + itemprice[31];
-			sumvalue[31] = sumvalue[30] + itemvalue[31];
-			}
-		else {
-			sumprice[31] = sumprice[30];
-			sumvalue[31] = sumvalue[30];
-			}
+												for (buy[29] = 0; buy[29] < 2; buy[29]++) {
+													if (buy[29] == 1) {
+														sumprice[29] = sumprice[28] + itemprice[29];
+														sumvalue[29] = sumvalue[28] + itemvalue[29];
+														}
+													else {
+														sumprice[29] = sumprice[28];
+														sumvalue[29] = sumvalue[28];
+														}
 
-		if(sumprice[31]>300) break;
+													if(sumprice[29]>300) break;
 
-		for (buy[32] = 0; buy[32] < 2; buy[32]++) {
-			if (buy[32] == 1) {
-				sumprice[32] = sumprice[31] + itemprice[32];
-				sumvalue[32] = sumvalue[31] + itemvalue[32];
+		for (buy[30] = 0; buy[30] < 2; buy[30]++) {
+			if (buy[30] == 1) {
+				sumprice[30] = sumprice[29] + itemprice[30];
+				sumvalue[30] = sumvalue[29] + itemvalue[30];
 				}
 			else {
-				sumprice[32] = sumprice[31];
-				sumvalue[32] = sumvalue[31];
+				sumprice[30] = sumprice[29];
+				sumvalue[30] = sumvalue[29];
 				}
 
-			if(sumprice[32]>300) break;
+			if(sumprice[30]>300) break;
 
-				for (buy[33] = 0; buy[33] < 2; buy[33]++) {
-					if (buy[33] == 1) {
-						sumprice[33] = sumprice[32] + itemprice[33];
-						sumvalue[33] = sumvalue[32] + itemvalue[33];
+			for (buy[31] = 0; buy[31] < 2; buy[31]++) {
+				if (buy[31] == 1) {
+					sumprice[31] = sumprice[30] + itemprice[31];
+					sumvalue[31] = sumvalue[30] + itemvalue[31];
+					}
+				else {
+					sumprice[31] = sumprice[30];
+					sumvalue[31] = sumvalue[30];
+					}
+
+				if(sumprice[31]>300) break;
+
+				for (buy[32] = 0; buy[32] < 2; buy[32]++) {
+					if (buy[32] == 1) {
+						sumprice[32] = sumprice[31] + itemprice[32];
+						sumvalue[32] = sumvalue[31] + itemvalue[32];
 						}
 					else {
-						sumprice[33] = sumprice[32];
-						sumvalue[33] = sumvalue[32];
+						sumprice[32] = sumprice[31];
+						sumvalue[32] = sumvalue[31];
 						}
 
-					if(sumprice[33]>300) break;
+					if(sumprice[32]>300) break;
 
-					for (buy[34] = 0; buy[34] < 2; buy[34]++) {
-						if (buy[34] == 1) {
-							sumprice[34] = sumprice[33] + itemprice[34];
-							sumvalue[34] = sumvalue[33] + itemvalue[34];
-							}
-						else {
-							sumprice[34] = sumprice[33];
-							sumvalue[34] = sumvalue[33];
-							}
-
-						if(sumprice[34]>300) break;
-
-						for (buy[35] = 0; buy[35] < 2; buy[35]++) {
-							if (buy[35] == 1) {
-								sumprice[35] = sumprice[34] + itemprice[35];
-								sumvalue[35] = sumvalue[34] + itemvalue[35];
+						for (buy[33] = 0; buy[33] < 2; buy[33]++) {
+							if (buy[33] == 1) {
+								sumprice[33] = sumprice[32] + itemprice[33];
+								sumvalue[33] = sumvalue[32] + itemvalue[33];
 								}
 							else {
-								sumprice[35] = sumprice[34];
-								sumvalue[35] = sumvalue[34];
+								sumprice[33] = sumprice[32];
+								sumvalue[33] = sumvalue[32];
 								}
 
-							if(sumprice[35]>300) break;
+							if(sumprice[33]>300) break;
 
-							for (buy[36] = 0; buy[36] < 2; buy[36]++) {
-								if (buy[36] == 1) {
-									sumprice[36] = sumprice[35] + itemprice[36];
-									sumvalue[36] = sumvalue[35] + itemvalue[36];
+							for (buy[34] = 0; buy[34] < 2; buy[34]++) {
+								if (buy[34] == 1) {
+									sumprice[34] = sumprice[33] + itemprice[34];
+									sumvalue[34] = sumvalue[33] + itemvalue[34];
 									}
 								else {
-									sumprice[36] = sumprice[35];
-									sumvalue[36] = sumvalue[35];
+									sumprice[34] = sumprice[33];
+									sumvalue[34] = sumvalue[33];
 									}
 
-								if(sumprice[36]>300) break;
+								if(sumprice[34]>300) break;
 
-								for (buy[37] = 0; buy[37] < 2; buy[37]++) {
-									if (buy[37] == 1) {
-										sumprice[37] = sumprice[36] + itemprice[37];
-										sumvalue[37] = sumvalue[36] + itemvalue[37];
+								for (buy[35] = 0; buy[35] < 2; buy[35]++) {
+									if (buy[35] == 1) {
+										sumprice[35] = sumprice[34] + itemprice[35];
+										sumvalue[35] = sumvalue[34] + itemvalue[35];
 										}
 									else {
-										sumprice[37] = sumprice[36];
-										sumvalue[37] = sumvalue[36];
+										sumprice[35] = sumprice[34];
+										sumvalue[35] = sumvalue[34];
 										}
 
-									if(sumprice[37]>300) break;
+									if(sumprice[35]>300) break;
 
-									for (buy[38] = 0; buy[38] < 2; buy[38]++) {
-										if (buy[38] == 1) {
-											sumprice[38] = sumprice[37] + itemprice[38];
-											sumvalue[38] = sumvalue[37] + itemvalue[38];
+									for (buy[36] = 0; buy[36] < 2; buy[36]++) {
+										if (buy[36] == 1) {
+											sumprice[36] = sumprice[35] + itemprice[36];
+											sumvalue[36] = sumvalue[35] + itemvalue[36];
 											}
 										else {
-											sumprice[38] = sumprice[37];
-											sumvalue[38] = sumvalue[37];
+											sumprice[36] = sumprice[35];
+											sumvalue[36] = sumvalue[35];
 											}
 
-										if(sumprice[38]>300) break;
+										if(sumprice[36]>300) break;
 
-										for (buy[39] = 0; buy[39] < 2; buy[39]++) {
-											if (buy[39] == 1) {
-												sumprice[39] = sumprice[38] + itemprice[39];
-												sumvalue[39] = sumvalue[38] + itemvalue[39];
+										for (buy[37] = 0; buy[37] < 2; buy[37]++) {
+											if (buy[37] == 1) {
+												sumprice[37] = sumprice[36] + itemprice[37];
+												sumvalue[37] = sumvalue[36] + itemvalue[37];
 												}
 											else {
-												sumprice[39] = sumprice[38];
-												sumvalue[39] = sumvalue[38];
+												sumprice[37] = sumprice[36];
+												sumvalue[37] = sumvalue[36];
 												}
 
-											if(sumprice[39]>300) break;
+											if(sumprice[37]>300) break;
 
-for (buy[40] = 0; buy[40] < 2; buy[40]++) {
-	if (buy[40] == 1) {
-		sumprice[40] = sumprice[39] + itemprice[40];
-		sumvalue[40] = sumvalue[39] + itemvalue[40];
+											for (buy[38] = 0; buy[38] < 2; buy[38]++) {
+												if (buy[38] == 1) {
+													sumprice[38] = sumprice[37] + itemprice[38];
+													sumvalue[38] = sumvalue[37] + itemvalue[38];
+													}
+												else {
+													sumprice[38] = sumprice[37];
+													sumvalue[38] = sumvalue[37];
+													}
+
+												if(sumprice[38]>300) break;
+
+												for (buy[39] = 0; buy[39] < 2; buy[39]++) {
+													if (buy[39] == 1) {
+														sumprice[39] = sumprice[38] + itemprice[39];
+														sumvalue[39] = sumvalue[38] + itemvalue[39];
+														}
+													else {
+														sumprice[39] = sumprice[38];
+														sumvalue[39] = sumvalue[38];
+														}
+
+													if(sumprice[39]>300) break;
+
+		for (buy[40] = 0; buy[40] < 2; buy[40]++) {
+			if (buy[40] == 1) {
+				sumprice[40] = sumprice[39] + itemprice[40];
+				sumvalue[40] = sumvalue[39] + itemvalue[40];
 		}
-	else {
-		sumprice[40] = sumprice[39];
-		sumvalue[40] = sumvalue[39];
-		}
-
-	if(sumprice[40]>300) break;
-
-	for (buy[41] = 0; buy[41] < 2; buy[41]++) {
-		if (buy[41] == 1) {
-			sumprice[41] = sumprice[40] + itemprice[41];
-			sumvalue[41] = sumvalue[40] + itemvalue[41];
-			}
-		else {
-			sumprice[41] = sumprice[40];
-			sumvalue[41] = sumvalue[40];
-			}
-
-		if(sumprice[41]>300) break;
-
-		for (buy[42] = 0; buy[42] < 2; buy[42]++) {
-			if (buy[42] == 1) {
-				sumprice[42] = sumprice[41] + itemprice[42];
-				sumvalue[42] = sumvalue[41] + itemvalue[42];
-				}
 			else {
-				sumprice[42] = sumprice[41];
-				sumvalue[42] = sumvalue[41];
+				sumprice[40] = sumprice[39];
+				sumvalue[40] = sumvalue[39];
 				}
 
-			if(sumprice[42]>300) break;
+			if(sumprice[40]>300) break;
 
-				for (buy[43] = 0; buy[43] < 2; buy[43]++) {
-					if (buy[43] == 1) {
-						sumprice[43] = sumprice[42] + itemprice[43];
-						sumvalue[43] = sumvalue[42] + itemvalue[43];
+			for (buy[41] = 0; buy[41] < 2; buy[41]++) {
+				if (buy[41] == 1) {
+					sumprice[41] = sumprice[40] + itemprice[41];
+					sumvalue[41] = sumvalue[40] + itemvalue[41];
+					}
+				else {
+					sumprice[41] = sumprice[40];
+					sumvalue[41] = sumvalue[40];
+					}
+
+				if(sumprice[41]>300) break;
+
+				for (buy[42] = 0; buy[42] < 2; buy[42]++) {
+					if (buy[42] == 1) {
+						sumprice[42] = sumprice[41] + itemprice[42];
+						sumvalue[42] = sumvalue[41] + itemvalue[42];
 						}
 					else {
-						sumprice[43] = sumprice[42];
-						sumvalue[43] = sumvalue[42];
+						sumprice[42] = sumprice[41];
+						sumvalue[42] = sumvalue[41];
 						}
 
-					if(sumprice[43]>300) break;
+					if(sumprice[42]>300) break;
 
-					for (buy[44] = 0; buy[44] < 2; buy[44]++) {
-						if (buy[44] == 1) {
-							sumprice[44] = sumprice[43] + itemprice[44];
-							sumvalue[44] = sumvalue[43] + itemvalue[44];
-							}
+						for (buy[43] = 0; buy[43] < 2; buy[43]++) {
+							if (buy[43] == 1) {
+								sumprice[43] = sumprice[42] + itemprice[43];
+								sumvalue[43] = sumvalue[42] + itemvalue[43];
+								}
+							else {
+								sumprice[43] = sumprice[42];
+								sumvalue[43] = sumvalue[42];
+								}
 
-						if(sumprice[44]>300) break;
+							if(sumprice[43]>300) break;
 
+							for (buy[44] = 0; buy[44] < 2; buy[44]++) {
+								if (buy[44] == 1) {
+									sumprice[44] = sumprice[43] + itemprice[44];
+									sumvalue[44] = sumvalue[43] + itemvalue[44];
+									}
 
+								if(sumprice[44]>300) break;
 
 
 											if (sumprice[44] <= 300 && maxvalue < sumvalue[44]) {
@@ -567,48 +565,45 @@ for (buy[40] = 0; buy[40] < 2; buy[40]++) {
 												maxprice = sumprice[44];
 												for (var i = 0; i < 45; i++) {
 													maxbuy[i] = buy[i];
-
-
+													}
+											}
+				}
+			}
+		}
+	}
+}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 												}
 											}
-					}
-				}
-		}
-	}
-}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-		}
-	}
-}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-		}
-	}
-}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-		}
-	}
-}
-										}
-									}
-
 										}
 									}
 								}
