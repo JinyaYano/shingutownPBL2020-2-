@@ -20,7 +20,7 @@ table th {
 	padding: 3px 10px;
 }
 
-button{
+.button{
 	font-size:1.4em;
 	font-weight:bold;
 	padding:10px 30px;
@@ -29,7 +29,22 @@ button{
 	border-style:none;
 }
 
-button:hover{
+.button:hover{
 	background-color:#24d;
+	color:#fff;
+}
+
+.button2{
+	font-size:1.4em;
+	font-weight:bold;
+	padding:10px 30px;
+	background-color:#cc0000;
+	color:#fff;
+	border-style:none;
+}
+
+
+.button2:hover{
+	background-color:#ff0000;
 	color:#fff;
 }
