@@ -1,6 +1,8 @@
+let btnstart5 = document.getElementById("mybtn5");
 let btnstart4 = document.getElementById("mybtn4");
 let btnstart3 = document.getElementById("mybtn3");
 
+btnstart5.addEventListener("click", full_search3_start);
 btnstart4.addEventListener("click", full_search2_start);
 btnstart3.addEventListener("click", calculation_start);
 
@@ -9,6 +11,12 @@ var itemvalue = [8,6,8,9,7,6,7,5,8,9,8,6,7,7,6,8,7,8,8,7,7,7,6,7,6,6,8,7,6,9,7,6
 var limitprice = 300;
 var choicenumber = 0;
 var maxvalue = 0;
+
+
+function full_search3_start() {
+	alert("計算できません");
+}
+
 
 function full_search2_start() {
 	 const startTime = performance.now();
@@ -32,7 +40,7 @@ function full_search2_start() {
 			sumvalue[0] = 0;
 		}
 
-		if(sumprice[0]>300) break;
+		if(sumprice[0]>300) continue;
 
 		for (buy[1] = 0; buy[1] < 2; buy[1]++) {
 			if (buy[1] == 1) {
@@ -44,7 +52,7 @@ function full_search2_start() {
 				sumvalue[1] = sumvalue[0];
 			}
 
-			if(sumprice[1]>300) break;
+			if(sumprice[1]>300) continue;
 
 			for (buy[2] = 0; buy[2] < 2; buy[2]++) {
 				if (buy[2] == 1) {
@@ -56,7 +64,7 @@ function full_search2_start() {
 					sumvalue[2] = sumvalue[1];
 				}
 
-				if(sumprice[2]>300) break;
+				if(sumprice[2]>300) continue;
 
 				for (buy[3] = 0; buy[3] < 2; buy[3]++) {
 					if (buy[3] == 1) {
@@ -68,7 +76,7 @@ function full_search2_start() {
 						sumvalue[3] = sumvalue[2];
 					}
 
-					if(sumprice[3]>300) break;
+					if(sumprice[3]>300) continue;
 
 					for (buy[4] = 0; buy[4] < 2; buy[4]++) {
 						if (buy[4] == 1) {
@@ -80,7 +88,7 @@ function full_search2_start() {
 							sumvalue[4] = sumvalue[3];
 						}
 
-						if(sumprice[4]>300) break;
+						if(sumprice[4]>300) continue;
 
 						for (buy[5] = 0; buy[5] < 2; buy[5]++) {
 							if (buy[5] == 1) {
@@ -92,7 +100,7 @@ function full_search2_start() {
 								sumvalue[5] = sumvalue[4];
 							}
 
-							if(sumprice[5]>300) break;
+							if(sumprice[5]>300) continue;
 
 							for (buy[6] = 0; buy[6] < 2; buy[6]++) {
 								if (buy[6] == 1) {
@@ -104,7 +112,7 @@ function full_search2_start() {
 									sumvalue[6] = sumvalue[5];
 								}
 
-								if(sumprice[6]>300) break;
+								if(sumprice[6]>300) continue;
 
 								for (buy[7] = 0; buy[7] < 2; buy[7]++) {
 									if (buy[7] == 1) {
@@ -116,7 +124,7 @@ function full_search2_start() {
 										sumvalue[7] = sumvalue[6];
 									}
 
-									if(sumprice[7]>300) break;
+									if(sumprice[7]>300) continue;
 
 									for (buy[8] = 0; buy[8] < 2; buy[8]++) {
 										if (buy[8] == 1) {
@@ -128,7 +136,7 @@ function full_search2_start() {
 											sumvalue[8] = sumvalue[7];
 										}
 
-										if(sumprice[8]>300) break;
+										if(sumprice[8]>300) continue;
 
 										for (buy[9] = 0; buy[9] < 2; buy[9]++) {
 											if (buy[9] == 1) {
@@ -140,7 +148,7 @@ function full_search2_start() {
 												sumvalue[9] = sumvalue[8];
 											}
 
-											if(sumprice[9]>300) break;
+											if(sumprice[9]>300) continue;
 
 
 		for (buy[10] = 0; buy[10] < 2; buy[10]++) {
@@ -153,7 +161,7 @@ function full_search2_start() {
 				sumvalue[10] = sumvalue[9];
 				}
 
-			if(sumprice[10]>300) break;
+			if(sumprice[10]>300) continue;
 
 			for (buy[11] = 0; buy[11] < 2; buy[11]++) {
 				if (buy[11] == 1) {
@@ -165,7 +173,7 @@ function full_search2_start() {
 					sumvalue[11] = sumvalue[10];
 					}
 
-				if(sumprice[11]>300) break;
+				if(sumprice[11]>300) continue;
 
 				for (buy[12] = 0; buy[12] < 2; buy[12]++) {
 					if (buy[12] == 1) {
@@ -177,7 +185,7 @@ function full_search2_start() {
 						sumvalue[12] = sumvalue[11];
 						}
 
-					if(sumprice[12]>300) break;
+					if(sumprice[12]>300) continue;
 
 						for (buy[13] = 0; buy[13] < 2; buy[13]++) {
 							if (buy[13] == 1) {
@@ -189,7 +197,7 @@ function full_search2_start() {
 								sumvalue[13] = sumvalue[12];
 								}
 
-							if(sumprice[13]>300) break;
+							if(sumprice[13]>300) continue;
 
 							for (buy[14] = 0; buy[14] < 2; buy[14]++) {
 								if (buy[14] == 1) {
@@ -201,7 +209,7 @@ function full_search2_start() {
 									sumvalue[14] = sumvalue[13];
 									}
 
-								if(sumprice[14]>300) break;
+								if(sumprice[14]>300) continue;
 
 								for (buy[15] = 0; buy[15] < 2; buy[15]++) {
 									if (buy[15] == 1) {
@@ -213,7 +221,7 @@ function full_search2_start() {
 										sumvalue[15] = sumvalue[14];
 										}
 
-									if(sumprice[15]>300) break;
+									if(sumprice[15]>300) continue;
 
 									for (buy[16] = 0; buy[16] < 2; buy[16]++) {
 										if (buy[16] == 1) {
@@ -225,7 +233,7 @@ function full_search2_start() {
 											sumvalue[16] = sumvalue[15];
 											}
 
-										if(sumprice[16]>300) break;
+										if(sumprice[16]>300) continue;
 
 										for (buy[17] = 0; buy[17] < 2; buy[17]++) {
 											if (buy[17] == 1) {
@@ -237,7 +245,7 @@ function full_search2_start() {
 												sumvalue[17] = sumvalue[16];
 												}
 
-											if(sumprice[17]>300) break;
+											if(sumprice[17]>300) continue;
 
 											for (buy[18] = 0; buy[18] < 2; buy[18]++) {
 												if (buy[18] == 1) {
@@ -249,7 +257,7 @@ function full_search2_start() {
 													sumvalue[18] = sumvalue[17];
 													}
 
-												if(sumprice[18]>300) break;
+												if(sumprice[18]>300) continue;
 
 												for (buy[19] = 0; buy[19] < 2; buy[19]++) {
 													if (buy[19] == 1) {
@@ -261,7 +269,7 @@ function full_search2_start() {
 														sumvalue[19] = sumvalue[18];
 														}
 
-													if(sumprice[19]>300) break;
+													if(sumprice[19]>300) continue;
 
 		for (buy[20] = 0; buy[20] < 2; buy[20]++) {
 			if (buy[20] == 1) {
@@ -273,7 +281,7 @@ function full_search2_start() {
 				sumvalue[20] = sumvalue[19];
 				}
 
-			if(sumprice[20]>300) break;
+			if(sumprice[20]>300) continue;
 
 			for (buy[21] = 0; buy[21] < 2; buy[21]++) {
 				if (buy[21] == 1) {
@@ -285,7 +293,7 @@ function full_search2_start() {
 					sumvalue[21] = sumvalue[20];
 					}
 
-				if(sumprice[21]>300) break;
+				if(sumprice[21]>300) continue;
 
 				for (buy[22] = 0; buy[22] < 2; buy[22]++) {
 					if (buy[22] == 1) {
@@ -297,7 +305,7 @@ function full_search2_start() {
 						sumvalue[22] = sumvalue[21];
 						}
 
-					if(sumprice[22]>300) break;
+					if(sumprice[22]>300) continue;
 
 						for (buy[23] = 0; buy[23] < 2; buy[23]++) {
 							if (buy[23] == 1) {
@@ -309,7 +317,7 @@ function full_search2_start() {
 								sumvalue[23] = sumvalue[22];
 								}
 
-							if(sumprice[23]>300) break;
+							if(sumprice[23]>300) continue;
 
 							for (buy[24] = 0; buy[24] < 2; buy[24]++) {
 								if (buy[24] == 1) {
@@ -321,7 +329,7 @@ function full_search2_start() {
 									sumvalue[24] = sumvalue[23];
 									}
 
-								if(sumprice[24]>300) break;
+								if(sumprice[24]>300) continue;
 
 								for (buy[25] = 0; buy[25] < 2; buy[25]++) {
 									if (buy[25] == 1) {
@@ -333,7 +341,7 @@ function full_search2_start() {
 										sumvalue[25] = sumvalue[24];
 										}
 
-									if(sumprice[25]>300) break;
+									if(sumprice[25]>300) continue;
 
 									for (buy[26] = 0; buy[26] < 2; buy[26]++) {
 										if (buy[26] == 1) {
@@ -345,7 +353,7 @@ function full_search2_start() {
 											sumvalue[26] = sumvalue[25];
 											}
 
-										if(sumprice[26]>300) break;
+										if(sumprice[26]>300) continue;
 
 										for (buy[27] = 0; buy[27] < 2; buy[27]++) {
 											if (buy[27] == 1) {
@@ -357,7 +365,7 @@ function full_search2_start() {
 												sumvalue[27] = sumvalue[26];
 												}
 
-											if(sumprice[27]>300) break;
+											if(sumprice[27]>300) continue;
 
 											for (buy[28] = 0; buy[28] < 2; buy[28]++) {
 												if (buy[28] == 1) {
@@ -369,7 +377,7 @@ function full_search2_start() {
 													sumvalue[28] = sumvalue[27];
 													}
 
-												if(sumprice[28]>300) break;
+												if(sumprice[28]>300) continue;
 
 												for (buy[29] = 0; buy[29] < 2; buy[29]++) {
 													if (buy[29] == 1) {
@@ -381,7 +389,7 @@ function full_search2_start() {
 														sumvalue[29] = sumvalue[28];
 														}
 
-													if(sumprice[29]>300) break;
+													if(sumprice[29]>300) continue;
 
 		for (buy[30] = 0; buy[30] < 2; buy[30]++) {
 			if (buy[30] == 1) {
@@ -393,7 +401,7 @@ function full_search2_start() {
 				sumvalue[30] = sumvalue[29];
 				}
 
-			if(sumprice[30]>300) break;
+			if(sumprice[30]>300) continue;
 
 			for (buy[31] = 0; buy[31] < 2; buy[31]++) {
 				if (buy[31] == 1) {
@@ -405,7 +413,7 @@ function full_search2_start() {
 					sumvalue[31] = sumvalue[30];
 					}
 
-				if(sumprice[31]>300) break;
+				if(sumprice[31]>300) continue;
 
 				for (buy[32] = 0; buy[32] < 2; buy[32]++) {
 					if (buy[32] == 1) {
@@ -417,7 +425,7 @@ function full_search2_start() {
 						sumvalue[32] = sumvalue[31];
 						}
 
-					if(sumprice[32]>300) break;
+					if(sumprice[32]>300) continue;
 
 						for (buy[33] = 0; buy[33] < 2; buy[33]++) {
 							if (buy[33] == 1) {
@@ -429,7 +437,7 @@ function full_search2_start() {
 								sumvalue[33] = sumvalue[32];
 								}
 
-							if(sumprice[33]>300) break;
+							if(sumprice[33]>300) continue;
 
 							for (buy[34] = 0; buy[34] < 2; buy[34]++) {
 								if (buy[34] == 1) {
@@ -441,7 +449,7 @@ function full_search2_start() {
 									sumvalue[34] = sumvalue[33];
 									}
 
-								if(sumprice[34]>300) break;
+								if(sumprice[34]>300) continue;
 
 								for (buy[35] = 0; buy[35] < 2; buy[35]++) {
 									if (buy[35] == 1) {
@@ -453,7 +461,7 @@ function full_search2_start() {
 										sumvalue[35] = sumvalue[34];
 										}
 
-									if(sumprice[35]>300) break;
+									if(sumprice[35]>300) continue;
 
 									for (buy[36] = 0; buy[36] < 2; buy[36]++) {
 										if (buy[36] == 1) {
@@ -465,7 +473,7 @@ function full_search2_start() {
 											sumvalue[36] = sumvalue[35];
 											}
 
-										if(sumprice[36]>300) break;
+										if(sumprice[36]>300) continue;
 
 										for (buy[37] = 0; buy[37] < 2; buy[37]++) {
 											if (buy[37] == 1) {
@@ -477,7 +485,7 @@ function full_search2_start() {
 												sumvalue[37] = sumvalue[36];
 												}
 
-											if(sumprice[37]>300) break;
+											if(sumprice[37]>300) continue;
 
 											for (buy[38] = 0; buy[38] < 2; buy[38]++) {
 												if (buy[38] == 1) {
@@ -489,7 +497,7 @@ function full_search2_start() {
 													sumvalue[38] = sumvalue[37];
 													}
 
-												if(sumprice[38]>300) break;
+												if(sumprice[38]>300) continue;
 
 												for (buy[39] = 0; buy[39] < 2; buy[39]++) {
 													if (buy[39] == 1) {
@@ -501,7 +509,7 @@ function full_search2_start() {
 														sumvalue[39] = sumvalue[38];
 														}
 
-													if(sumprice[39]>300) break;
+													if(sumprice[39]>300) continue;
 
 		for (buy[40] = 0; buy[40] < 2; buy[40]++) {
 			if (buy[40] == 1) {
@@ -513,7 +521,7 @@ function full_search2_start() {
 				sumvalue[40] = sumvalue[39];
 				}
 
-			if(sumprice[40]>300) break;
+			if(sumprice[40]>300) continue;
 
 			for (buy[41] = 0; buy[41] < 2; buy[41]++) {
 				if (buy[41] == 1) {
@@ -525,7 +533,7 @@ function full_search2_start() {
 					sumvalue[41] = sumvalue[40];
 					}
 
-				if(sumprice[41]>300) break;
+				if(sumprice[41]>300) continue;
 
 				for (buy[42] = 0; buy[42] < 2; buy[42]++) {
 					if (buy[42] == 1) {
@@ -537,7 +545,7 @@ function full_search2_start() {
 						sumvalue[42] = sumvalue[41];
 						}
 
-					if(sumprice[42]>300) break;
+					if(sumprice[42]>300) continue;
 
 						for (buy[43] = 0; buy[43] < 2; buy[43]++) {
 							if (buy[43] == 1) {
@@ -549,7 +557,7 @@ function full_search2_start() {
 								sumvalue[43] = sumvalue[42];
 								}
 
-							if(sumprice[43]>300) break;
+							if(sumprice[43]>300) continue;
 
 							for (buy[44] = 0; buy[44] < 2; buy[44]++) {
 								if (buy[44] == 1) {
@@ -557,7 +565,7 @@ function full_search2_start() {
 									sumvalue[44] = sumvalue[43] + itemvalue[44];
 									}
 
-								if(sumprice[44]>300) break;
+								if(sumprice[44]>300) continue;
 
 
 											if (sumprice[44] <= 300 && maxvalue < sumvalue[44]) {
@@ -629,7 +637,6 @@ function full_search2_start() {
 	alert("合計金額:" + maxprice + "\n合計人気度:" + maxvalue + "\n実行時間:" + executionTime + "/1000秒");
 
 	}
-
 
 
 function calculation_start(){
