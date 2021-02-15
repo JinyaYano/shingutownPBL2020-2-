@@ -9,8 +9,10 @@ h1 {
 }
 
 table {
+	color:blue;
+	font-weight:bold;
 	text-align: center;
-	width:100%
+	width:178%
 }
 
 table td {
