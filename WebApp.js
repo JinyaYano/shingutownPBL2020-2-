@@ -14,7 +14,7 @@ var maxvalue = 0;
 
 
 function full_search3_start() {
-	alert("計算できません");
+	alert("計算に時間がかかります。");
 }
 
 
@@ -625,7 +625,7 @@ function full_search2_start() {
 	const executionTime = endTime-startTime;
 
 	var element = document.createElement("p");
-	var text = document.createTextNode("合計金額:" + maxprice + ",合計人気度:" + maxvalue + ",実行時間:" + executionTime + "/1000秒!!");
+	var text = document.createTextNode("合計金額：" + maxprice + "円" + ",合計人気度：" + maxvalue + ",実行時間：" + executionTime/1000 + "秒!!");
 	document.body.appendChild(element).appendChild(text);
 
 	var sname = document.getElementsByName("snackname");
@@ -634,7 +634,7 @@ function full_search2_start() {
 		if(maxbuy[i]==1)sname[i].style.backgroundColor="Red";
 	}
 
-	alert("合計金額:" + maxprice + "\n合計人気度:" + maxvalue + "\n実行時間:" + executionTime + "/1000秒");
+	alert("合計金額：" + maxprice + "円" + "\n合計人気度：" + maxvalue + "\n実行時間：" + executionTime/1000 + "秒");
 
 	}
 
@@ -653,21 +653,21 @@ function calculation_start(){
 }
 
 	var element = document.createElement("p");
-	var text = document.createTextNode("合計金額:" + psum + ",合計人気度:" + vsum);
+	var text = document.createTextNode("合計金額：" + psum + "円" + ",合計人気度：" + vsum);
 	document.body.appendChild(element).appendChild(text);
 
 var snname = document.getElementsByName("snaname");
 
 	if(psum>300){
-		alert("お金が足りないよ!" + "\n合計金額：" + psum + "\n合計人気度：" + vsum);
+		alert("お金が足りないよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
 		document.getElementsByName("imgname")[0].src="WebApp3.png";
 		}
 	if(psum<150){
-		alert("もう少し買えるよ!" + "\n合計金額：" + psum + "\n合計人気度：" + vsum);
+		alert("もう少し買えるよ!" + "\n合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
 		document.getElementsByName("imgname")[0].src="WebApp4.png";
 	}
 	if(psum >= 150 && psum <= 300){
-		alert("合計金額:" + psum + "\n合計人気度:" + vsum);
+		alert("合計金額：" + psum + "円" + "\n合計人気度：" + vsum);
 		document.getElementsByName("imgname")[0].src="WebApp2.png";
 	}
 }
