@@ -70,3 +70,13 @@ table td {
 	background-color:#24d;
 	color:#fff;
 }
+
+.image{
+	margin-top:20px;
+}
+
+.url{
+	clear:both;
+	font-size:1.2em;
+	margin:10px 0px;
+}
