@@ -47,7 +47,7 @@ table td {
 	background-color:#cc0000;
 	color:#fff;
 	border-style:none;
-	float:right;
+	float:left;
 	margin:0px 4px 4px 2px;
 }
 
@@ -65,7 +65,7 @@ table td {
 	color:#fff;
 	border-style:none;
 	float:left;
-	margin:0px 0px 0px 4px;
+	margin:0px 0px 10px 4px;
 }
 
 .button3:hover{
