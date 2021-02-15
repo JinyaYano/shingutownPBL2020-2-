@@ -34,7 +34,8 @@ table td {
 	text-align:center;
 	margin-top:150px;
 	margin-right:3px;
-	margin-bottom:6px;
+	margin-left:6px;
+	margin-bottom:5px;
 }
 
 .button1:hover{
@@ -50,9 +51,10 @@ table td {
 	color:#fff;
 	border-style:none;
 	text-align:center;
-	margin-top:150px;
-	margin-left:6px;
-	margin-bottom:6px;
+	margin-top:640px;
+	margin-right:6px;
+	margin-left:3px;
+	margin-bottom:5px;
 }
 
 
@@ -69,7 +71,11 @@ table td {
 	color:#fff;
 	border-style:none;
 	text-align:center;
-	margin-top:150px;
+	margin-top:660px;
+	margin-right:6px;
+	margin-left:6px;
+	margin-bottom:5px;
+	
 }
 
 .button3:hover{
@@ -78,7 +84,7 @@ table td {
 }
 
 .image{
-	margin-top:150px;
+	margin-top:600px;
 }
 
 .url{
