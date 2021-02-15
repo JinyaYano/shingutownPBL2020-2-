@@ -31,6 +31,7 @@ table td {
 	background-color:#248;
 	color:#fff;
 	border-style:none;
+	float:left;
 }
 
 .button1:hover{
@@ -45,6 +46,7 @@ table td {
 	background-color:#cc0000;
 	color:#fff;
 	border-style:none;
+	float:right;
 }
 
 
