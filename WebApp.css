@@ -32,7 +32,9 @@ table td {
 	color:#fff;
 	border-style:none;
 	text-align:center;
-	margin:0px 3px 6px 6px;
+	margin-top:150px;
+	margin-right:3px;
+	margin-bottom:6px;
 }
 
 .button1:hover{
@@ -48,7 +50,9 @@ table td {
 	color:#fff;
 	border-style:none;
 	text-align:center;
-	margin:0px 6px 6px 3px;
+	margin-top:150px;
+	margin-left:6px;
+	margin-bottom:6px;
 }
 
 
@@ -65,7 +69,7 @@ table td {
 	color:#fff;
 	border-style:none;
 	text-align:center;
-	margin:0px 0px 10px 6px;
+	margin-top:150px;
 }
 
 .button3:hover{
@@ -74,7 +78,7 @@ table td {
 }
 
 .image{
-	margin-top:20px;
+	margin-top:150px;
 }
 
 .url{
