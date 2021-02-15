@@ -31,7 +31,7 @@ table td {
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	float:left;
+	text-align:center;
 	margin:0px 3px 6px 6px;
 }
 
@@ -47,7 +47,7 @@ table td {
 	background-color:#cc0000;
 	color:#fff;
 	border-style:none;
-	text-align:left;
+	text-align:center;
 	margin:0px 6px 6px 3px;
 }
 
@@ -64,7 +64,7 @@ table td {
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	float:left;
+	text-align:center;
 	margin:0px 0px 10px 6px;
 }
 
