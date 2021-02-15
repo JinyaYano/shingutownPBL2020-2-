@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+	font-family:sans-serif;
+}
+
 h1 {
   text-align: center;
   color: #364e96;
@@ -10,9 +14,9 @@ h1 {
 
 table {
 	color:blue;
-	font-weight:bold;
 	text-align: center;
-	width:178%
+	font-weight:bold;
+	width:78%;
 }
 
 table td {
