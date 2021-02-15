@@ -64,6 +64,8 @@ table td {
 	background-color:#248;
 	color:#fff;
 	border-style:none;
+	float:left;
+	margin:0px 0px 0px 4px;
 }
 
 .button3:hover{
