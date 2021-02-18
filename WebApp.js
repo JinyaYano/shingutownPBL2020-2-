@@ -22,8 +22,6 @@ function full_search45_start() {
 	var SplitTime;
 	var cnt = 1;
 
-	document.getElementsByName("imgname")[0].src = "calculating2.png";
-
 	var sumprice = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 	var sumvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 	var buy = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -41,6 +39,8 @@ function full_search45_start() {
 			sumprice[0] = 0;
 			sumvalue[0] = 0;
 		}
+		
+		document.getElementsByName("imgname")[0].src = "calculating2.png";
 
 		for (buy[1] = 0; buy[1] < 2; buy[1]++) {
 			if (buy[1] == 1) {
