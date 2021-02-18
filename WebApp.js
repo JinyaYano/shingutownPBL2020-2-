@@ -594,15 +594,12 @@ function full_search3_start() {
 	}
 
 
-	document.getElementById("sumvalue2").textContent = maxvalue;
-	document.getElementById("exectime2").textContent = (endTime - startTime) / 1000 + "秒";
-	document.getElementById("sumprice2").textContent = maxprice;
+	document.getElementById("sumvalue3").textContent = maxvalue;
+	document.getElementById("exectime3").textContent = (endTime - startTime) / 1000 + "秒";
+	document.getElementById("sumprice3").textContent = maxprice;
 
 
 	alert("合計金額：" + maxprice + "円" + "\n合計人気度：" + maxvalue + "\n実行時間：" + executionTime / 1000 + "秒");
-
-}
-
 
 }
 
@@ -1213,15 +1210,16 @@ function full_search2_start() {
 	const endTime = performance.now();
 	const executionTime = endTime-startTime;
 
-	var element = document.createElement("p");
-	var text = document.createTextNode("合計金額：" + maxprice + "円" + ",合計人気度：" + maxvalue + ",実行時間：" + executionTime/1000 + "秒!!");
-	document.body.appendChild(element).appendChild(text);
-
 	var sname = document.getElementsByName("snackname");
 
 	for(var i=0;i<45;i++){
 		if(maxbuy[i]==1)sname[i].style.backgroundColor="Red";
 	}
+
+
+	document.getElementById("sumvalue2").textContent = maxvalue;
+	document.getElementById("exectime2").textContent = (endTime - startTime) / 1000 + "秒";
+	document.getElementById("sumprice2").textContent = maxprice;
 
 	alert("合計金額：" + maxprice + "円" + "\n合計人気度：" + maxvalue + "\n実行時間：" + executionTime/1000 + "秒");
 
@@ -1241,9 +1239,9 @@ function calculation_start(){
 	}
 }
 
-	var element = document.createElement("p");
-	var text = document.createTextNode("合計金額：" + psum + "円" + ",合計人気度：" + vsum);
-	document.body.appendChild(element).appendChild(text);
+	document.getElementById("sumvalue1").textContent = vsum;
+	document.getElementById("sumprice1").textContent = (psum + "円");
+
 
 var snname = document.getElementsByName("snaname");
 
