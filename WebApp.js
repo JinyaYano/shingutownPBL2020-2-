@@ -30,6 +30,8 @@ function full_search45_start() {
 	var maxvalue = 0;
 	var maxbuy = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
+	document.getElementsByName("imgname")[0].src = "calculating2.png";
+	
 	for (buy[0] = 0; buy[0] < 2; buy[0]++) {
 		if (buy[0] == 1) {
 			sumprice[0] = itemprice[0];
@@ -40,7 +42,6 @@ function full_search45_start() {
 			sumvalue[0] = 0;
 		}
 		
-		document.getElementsByName("imgname")[0].src = "calculating2.png";
 
 		for (buy[1] = 0; buy[1] < 2; buy[1]++) {
 			if (buy[1] == 1) {
