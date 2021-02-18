@@ -9,6 +9,8 @@ btnstart5.addEventListener("click", full_search45_start);
 btnstart4.addEventListener("click", branch_and_bound_start);
 btnstart3.addEventListener("click", calculation_start);
 
+document.getElementsByName("imgname")[0].src = "calculating2.png";
+
 var itemprice = [30, 50, 80, 90, 100, 110, 120, 130, 150, 160, 100, 120, 130, 140, 100, 100, 150, 130, 130, 160, 100, 90, 110, 120, 120, 100, 120, 120, 90, 120, 110, 90, 110, 110, 100, 100, 100, 100, 100, 110, 70, 100, 120, 120, 60];
 var itemvalue = [8, 6, 8, 9, 7, 6, 7, 5, 8, 9, 8, 6, 7, 7, 6, 8, 7, 8, 8, 7, 7, 7, 6, 7, 6, 6, 8, 7, 6, 9, 7, 6, 8, 8, 8, 7, 6, 5, 5, 6, 8, 8, 7, 7, 6];
 var limitprice = 300;
@@ -39,8 +41,6 @@ function full_search45_start() {
 			sumprice[0] = 0;
 			sumvalue[0] = 0;
 		}
-		
-		document.getElementsByName("imgname")[0].src = "calculating2.png";
 
 		for (buy[1] = 0; buy[1] < 2; buy[1]++) {
 			if (buy[1] == 1) {
