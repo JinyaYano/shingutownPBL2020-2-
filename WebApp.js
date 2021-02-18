@@ -3,7 +3,7 @@
  */
 let btnstart5 = document.getElementById("mybtn5"); //調べる
 let btnstart4 = document.getElementById("mybtn4"); //工夫
-let btnstart3 = document.getElementById("mybtn3"); //全探索(仮)
+let btnstart3 = document.getElementById("mybtn3"); //全探索
 
 btnstart5.addEventListener("click", full_search45_start);
 btnstart4.addEventListener("click", branch_and_bound_start);
@@ -22,6 +22,8 @@ function full_search45_start() {
 	var SplitTime;
 	var cnt = 1;
 
+	document.getElementsByName("imgname")[0].src = "calculating2.png";
+
 	var sumprice = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 	var sumvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 	var buy = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -29,7 +31,6 @@ function full_search45_start() {
 	var maxprice = 0;
 	var maxvalue = 0;
 	var maxbuy = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
 
 	for (buy[0] = 0; buy[0] < 2; buy[0]++) {
 		if (buy[0] == 1) {
@@ -576,7 +577,9 @@ function full_search45_start() {
 
 																			if (window.confirm('あと' + Time + '時間くらいかかりそう！計算を続けるならOKをクリック！')) { /////2^18倍の計算が必要
 
+
 																			} else {
+																				document.getElementsByName("imgname")[0].src = "full_search.png";
 																				return;
 																			};  ////buy[17]で確認
 																			cnt++;
@@ -609,7 +612,6 @@ function full_search45_start() {
 	for (var i = 0; i < 45; i++) {
 		if (maxbuy[i] == 1) sname[i].style.backgroundColor = "Red";
 	}
-
 
 	document.getElementById("sumvalue2").textContent = maxvalue;
 	document.getElementById("exectime2").textContent = (endTime - startTime) / 1000 + "秒";
