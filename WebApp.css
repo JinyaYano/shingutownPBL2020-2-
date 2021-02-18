@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 body{
 	font-family:sans-serif;
 }
@@ -19,66 +20,24 @@ table {
 	width:78%;
 }
 
-table td {
+table td{
 	border : solid 3px black;
 	padding : 10px 10px;
 }
 
-.button1{
+button{
 	font-size:1.4em;
 	font-weight:bold;
 	padding:10px 30px;
 	background-color:#248;
 	color:#fff;
 	border-style:none;
-	text-align:center;
-	margin-right:3px;
-	margin-left:6px;
+	margin:0px
 }
 
-.button1:hover{
+button:hover{
 	background-color:#24d;
 	color:#fff;
-}
-
-.button2{
-	font-size:1.4em;
-	font-weight:bold;
-	padding:10px 30px;
-	background-color:#cc0000;
-	color:#fff;
-	border-style:none;
-	text-align:center;
-	margin-right:6px;
-	margin-left:3px;
-}
-
-
-.button2:hover{
-	background-color:#ff0000;
-	color:#fff;
-}
-
-.button3{
-	font-size:1.4em;
-	font-weight:bold;
-	padding:10px 30px;
-	background-color:#248;
-	color:#fff;
-	border-style:none;
-	text-align:center;
-	margin-right:6px;
-	margin-left:6px;
-	
-}
-
-.button3:hover{
-	background-color:#24d;
-	color:#fff;
-}
-
-.right{
-	margin-top:2150px;
 }
 
 .url{
