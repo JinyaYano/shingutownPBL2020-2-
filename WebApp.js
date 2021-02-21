@@ -580,7 +580,7 @@ function full_search45_start() {
 
 
 																			} else {
-																				document.getElementsByName("imgname")[0].src = "full_search.png";
+																				document.getElementsByName("imgname")[0].src = "images/full_search.png";
 																				return;
 																			};  ////buy[17]で確認
 																			cnt++;
